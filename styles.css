@@ -1,0 +1,53 @@
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    color: aliceblue;
+}
+body {
+    background-color: #0E2954;
+}
+button {
+    height: 200px;
+    width: 200px;
+    padding: 3% 15%;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+footer {
+    text-align: center;
+    margin: 3% 15%;
+    color: aliceblue;
+}
+
+/* classes */
+.container {
+    margin: 3% 35%;
+}
+
+.tl {
+    background-color: blue;
+}
+
+.tr {
+    background-color: red;
+}
+
+.bl {
+    background-color: green;
+}
+
+.br {
+    background-color: yellow;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
